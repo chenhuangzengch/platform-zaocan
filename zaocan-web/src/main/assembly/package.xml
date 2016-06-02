@@ -26,15 +26,33 @@
 			<directory>src/main/webapp</directory>
 			<outputDirectory>/webapp</outputDirectory>
 		</fileSet>
+
 		<fileSet>
-			<directory>target/classes</directory>
-			<outputDirectory>/conf</outputDirectory>
+			<directory>${project.basedir}/src/${package.environment}/resources</directory>
+			<outputDirectory>config</outputDirectory>
 			<includes>
-				<include>META-INF/**</include>
-				<include>*.xml</include>
-				<include>*.properties</include>
+				<include>**/*.xml</include>
+				<include>**/*.properties</include>
 			</includes>
 		</fileSet>
+
+		<fileSet>
+			<directory>src/main/resources</directory>
+			<outputDirectory>/config</outputDirectory>
+			<includes>
+				<include>**/*.xml</include>
+				<include>**/*.properties</include>
+			</includes>
+		</fileSet>
+
+		<fileSet>
+			<directory>${project.build.directory}</directory>
+			<outputDirectory>lib</outputDirectory>
+			<includes>
+				<include>*.jar</include>
+			</includes>
+		</fileSet>
+
 	</fileSets>
 	<dependencySets>
 		<dependencySet>
