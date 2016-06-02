@@ -156,7 +156,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="images/68x68.jpg" alt="" />
+                            <img src="/resources/images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
@@ -215,7 +215,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="images/68x68.jpg" alt="" />
+                            <img src="/resources/images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
@@ -274,7 +274,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="images/68x68.jpg" alt="" />
+                            <img src="/resources/images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
@@ -346,7 +346,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="images/68x68.jpg" alt="" />
+                            <img src="/resources/images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
@@ -405,7 +405,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="images/68x68.jpg" alt="" />
+                            <img src="/resources/images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
@@ -464,7 +464,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="images/68x68.jpg" alt="" />
+                            <img src="/resources/images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
