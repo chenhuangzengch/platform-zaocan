@@ -47,7 +47,7 @@
 
 		<fileSet>
 			<directory>${project.build.directory}</directory>
-			<outputDirectory>lib</outputDirectory>
+			<outputDirectory>/webapp/WEB-INF/lib</outputDirectory>
 			<includes>
 				<include>*.jar</include>
 			</includes>
@@ -57,7 +57,7 @@
 	<dependencySets>
 		<dependencySet>
 			<useProjectArtifact>true</useProjectArtifact>
-			<outputDirectory>lib</outputDirectory>
+			<outputDirectory>/webapp/WEB-INF/lib</outputDirectory>
 			<scope>runtime</scope>
 		</dependencySet>
 	</dependencySets>

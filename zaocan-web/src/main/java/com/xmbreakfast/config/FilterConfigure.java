@@ -1,6 +1,5 @@
 package com.xmbreakfast.config;
 
-import com.opensymphony.module.sitemesh.filter.PageFilter;
 import com.opensymphony.sitemesh.webapp.SiteMeshFilter;
 import org.springframework.boot.context.embedded.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -21,8 +20,6 @@ public class FilterConfigure {
 		urlPatterns.add("/*");
 		sdf.setFilter(siteMeshFilter);
 		sdf.setUrlPatterns(urlPatterns);
-		sdf.addInitParameter("decorators-file", "/WEB-INF/decorators.xml");
-		sdf.addInitParameter("contextConfigLocation", "classpath:/WEB-INF/sitemesh.xml");
 		return sdf;
 	}
 }
