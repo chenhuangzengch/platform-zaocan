@@ -14,7 +14,7 @@
 			</includes>
 		</fileSet>
 		<fileSet>
-			<directory>src/main/scripts</directory>
+			<directory>src/main/bin</directory>
 			<outputDirectory>/bin</outputDirectory>
 			<lineEnding>unix</lineEnding>
 			<fileMode>0755</fileMode>
