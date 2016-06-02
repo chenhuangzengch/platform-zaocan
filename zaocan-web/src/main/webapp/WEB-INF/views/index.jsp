@@ -22,6 +22,7 @@
 
     <div class="banner">
         <a href="javascript:;" class="menu-btn" id="menu-btn"></a>
+        <a href="javascript:;" class="city-btn">重庆</a>
         <img src="/resources/images/banner.jpg" class="btn-block"/>
     </div>
 
@@ -34,7 +35,6 @@
                 <h3>
                     选择写字楼
                 </h3>
-
                 <div class="sort-select">
                     <dl>
                         <dt>
@@ -44,21 +44,18 @@
                             <i>
                                 A
                             </i>
-
                             <p>爱的视觉</p>
                         </dd>
                         <dd>
                             <i>
                                 B
                             </i>
-
                             <p>博雅视觉</p>
                         </dd>
                         <dd>
                             <i>
                                 C
                             </i>
-
                             <p>长城广场</p>
                         </dd>
                         <dd>
@@ -79,7 +76,6 @@
                 <h3>
                     选择公司
                 </h3>
-
                 <div class="sort-select">
                     <dl>
                         <dt>
@@ -92,7 +88,7 @@
                                         XXXX公司
                                     </div>
                                     <div class="col-xs-6 text-right time">
-                                        送达时间<br/>
+                                        送达时间<br />
                                         8:30-9:00
                                     </div>
                                 </div>
@@ -105,7 +101,7 @@
                                         XXXX公司
                                     </div>
                                     <div class="col-xs-6 text-right time">
-                                        送达时间<br/>
+                                        送达时间<br />
                                         8:30-9:00
                                     </div>
                                 </div>
@@ -118,7 +114,7 @@
                                         XXXX公司
                                     </div>
                                     <div class="col-xs-6 text-right time">
-                                        送达时间<br/>
+                                        送达时间<br />
                                         8:30-9:00
                                     </div>
                                 </div>
@@ -136,7 +132,7 @@
                                         XXXX公司
                                     </div>
                                     <div class="col-xs-6 text-right time">
-                                        送达时间<br/>
+                                        送达时间<br />
                                         8:30-9:00
                                     </div>
                                 </div>
@@ -150,6 +146,7 @@
     </div>
 
 
+
     <div class="pro-day">
         <div class="pro-day-title">
             周一 5月23日
@@ -159,7 +156,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="/resources/images/68x68.jpg" alt=""/>
+                            <img src="images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
@@ -170,7 +167,6 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
@@ -181,7 +177,7 @@
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="8.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -195,7 +191,6 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
@@ -206,7 +201,7 @@
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="8.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -220,7 +215,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="/resources/images/68x68.jpg" alt=""/>
+                            <img src="images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
@@ -231,7 +226,6 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
@@ -242,7 +236,7 @@
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="8.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -256,7 +250,6 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
@@ -267,7 +260,7 @@
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="8.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -281,7 +274,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="/resources/images/68x68.jpg" alt=""/>
+                            <img src="images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
@@ -292,7 +285,6 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
@@ -303,7 +295,7 @@
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="8.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -317,7 +309,6 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
@@ -328,7 +319,7 @@
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="8.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -338,12 +329,14 @@
 
                 </div>
             </div>
+
 
 
         </div>
     </div>
 
 
+
     <div class="pro-day">
         <div class="pro-day-title">
             周一 5月23日
@@ -353,7 +346,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="/resources/images/68x68.jpg" alt=""/>
+                            <img src="images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
@@ -364,7 +357,6 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
@@ -375,7 +367,7 @@
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="8.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -389,7 +381,6 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
@@ -400,7 +391,7 @@
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="8.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -414,7 +405,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="/resources/images/68x68.jpg" alt=""/>
+                            <img src="images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
@@ -425,7 +416,6 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
@@ -436,7 +426,7 @@
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="8.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -450,7 +440,6 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
@@ -461,7 +450,7 @@
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="8.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -475,7 +464,7 @@
                 <div class="row">
                     <div class="col-xs-3 pro-img">
                         <a href="" class="img">
-                            <img src="/resources/images/68x68.jpg" alt=""/>
+                            <img src="images/68x68.jpg" alt="" />
                             <h6>
                                 主食
                             </h6>
@@ -486,18 +475,17 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
 
                         </div>
                         <div class="col-xs-3 pro-price">
-                            <strong>￥8.00</strong>
+                            <strong>￥9.00</strong>
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="9.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -511,7 +499,6 @@
                             <h3>
                                 牛肉生煎包3只
                             </h3>
-
                             <p>
                                 周售 88
                             </p>
@@ -522,7 +509,7 @@
                         </div>
                         <div class="col-xs-3 input-fun">
                             <div class="input-box">
-                                <input type="text" class="text" value="2" disabled>
+                                <input type="text" class="text" data-price="8.00" value="0" disabled>
                                 <a href="javascript:;" class="jia J-jia">+</a>
                                 <a href="javascript:;" class="jian J-jian">-</a>
                             </div>
@@ -532,6 +519,7 @@
 
                 </div>
             </div>
+
 
 
         </div>
@@ -540,12 +528,12 @@
 </div>
 
 
+
 <!--菜单-->
 <div class="mask"></div>
 <div id="menu" class="J-mask-close">
     <div class="user-info">
-        <img src="/resources/images/user.png" alt=""/>
-
+        <img src="images/user.png" alt="" />
         <h3>
             林枫
         </h3>
@@ -561,9 +549,8 @@
 
     <div class="tel">
         <h5>
-            <img src="/resources/images/ico-tel.png" alt=""/> 客服电话
+            <img src="images/ico-tel.png" alt="" />	客服电话
         </h5>
-
         <p>
             4009-927-211
         </p>
@@ -574,16 +561,34 @@
 <footer>
     <div class="footer">
         <div class="container-max">
-            <a href="" class="button">确认</a>
+            <a href="/order" class="button">确认</a>
             <a href="javascript:;" class="car">
-                <i>1</i>
+                <i id="J-car">0</i>
             </a>
 		 			<span class="total">
-		 				总计: <b>¥26</b>
+		 				总计: <b>¥<font id="dataPrice">0</font></b>
 		 			</span>
         </div>
     </div>
 </footer>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (baidu cdn) -->
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

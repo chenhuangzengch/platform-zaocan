@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -286,11 +286,11 @@ td, th {
 }
 
 .glyphicon-asterisk:before {
-    content: "\002a"
+    content: "\2a"
 }
 
 .glyphicon-plus:before {
-    content: "\002b"
+    content: "\2b"
 }
 
 .glyphicon-eur:before, .glyphicon-euro:before {
@@ -1743,7 +1743,7 @@ blockquote .small:before, blockquote footer:before, blockquote small:before {
 }
 
 .blockquote-reverse, blockquote.pull-right {
-    padding-right: 15px;
+    padding-right: 10px;
     padding-left: 0;
     text-align: right;
     border-right: 5px solid #eee;
@@ -1823,8 +1823,8 @@ pre code {
 }
 
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin-right: auto;
     margin-left: auto
 }
@@ -1848,22 +1848,22 @@ pre code {
 }
 
 .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin-right: auto;
     margin-left: auto
 }
 
 .row {
-    margin-right: -15px;
-    margin-left: -15px
+    margin-right: -10px;
+    margin-left: -10px
 }
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px
+    padding-right: 10px;
+    padding-left: 10px
 }
 
 .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
@@ -2833,7 +2833,7 @@ table td[class*=col-], table th[class*=col-] {
 @media screen and (max-width: 767px) {
     .table-responsive {
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         overflow-y: hidden;
         -ms-overflow-style: -ms-autohiding-scrollbar;
         border: 1px solid #ddd
@@ -2968,11 +2968,6 @@ output {
     color: #999
 }
 
-.form-control::-ms-expand {
-    background-color: transparent;
-    border: 0
-}
-
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
     background-color: #eee;
     opacity: 1
@@ -3005,7 +3000,7 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 10px
 }
 
 .checkbox, .radio {
@@ -3349,8 +3344,8 @@ select[multiple].input-lg, textarea.input-lg {
 }
 
 .form-horizontal .form-group {
-    margin-right: -15px;
-    margin-left: -15px
+    margin-right: -10px;
+    margin-left: -10px
 }
 
 @media (min-width: 768px) {
@@ -3362,12 +3357,12 @@ select[multiple].input-lg, textarea.input-lg {
 }
 
 .form-horizontal .has-feedback .form-control-feedback {
-    right: 15px
+    right: 10px
 }
 
 @media (min-width: 768px) {
     .form-horizontal .form-group-lg .control-label {
-        padding-top: 11px;
+        padding-top: 14.33px;
         font-size: 18px
     }
 }
@@ -3465,7 +3460,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-image: none
 }
 
-.btn-default.disabled.focus, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled].focus, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
+.btn-default.disabled, .btn-default.disabled.active, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled].active, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default.active, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
     background-color: #fff;
     border-color: #ccc
 }
@@ -3509,7 +3504,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-image: none
 }
 
-.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
     background-color: #337ab7;
     border-color: #2e6da4
 }
@@ -3553,7 +3548,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-image: none
 }
 
-.btn-success.disabled.focus, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled].focus, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover {
+.btn-success.disabled, .btn-success.disabled.active, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled], .btn-success[disabled].active, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success.active, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover {
     background-color: #5cb85c;
     border-color: #4cae4c
 }
@@ -3597,7 +3592,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-image: none
 }
 
-.btn-info.disabled.focus, .btn-info.disabled:focus, .btn-info.disabled:hover, .btn-info[disabled].focus, .btn-info[disabled]:focus, .btn-info[disabled]:hover, fieldset[disabled] .btn-info.focus, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:hover {
+.btn-info.disabled, .btn-info.disabled.active, .btn-info.disabled.focus, .btn-info.disabled:active, .btn-info.disabled:focus, .btn-info.disabled:hover, .btn-info[disabled], .btn-info[disabled].active, .btn-info[disabled].focus, .btn-info[disabled]:active, .btn-info[disabled]:focus, .btn-info[disabled]:hover, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info.active, fieldset[disabled] .btn-info.focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:hover {
     background-color: #5bc0de;
     border-color: #46b8da
 }
@@ -3641,7 +3636,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-image: none
 }
 
-.btn-warning.disabled.focus, .btn-warning.disabled:focus, .btn-warning.disabled:hover, .btn-warning[disabled].focus, .btn-warning[disabled]:focus, .btn-warning[disabled]:hover, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:hover {
+.btn-warning.disabled, .btn-warning.disabled.active, .btn-warning.disabled.focus, .btn-warning.disabled:active, .btn-warning.disabled:focus, .btn-warning.disabled:hover, .btn-warning[disabled], .btn-warning[disabled].active, .btn-warning[disabled].focus, .btn-warning[disabled]:active, .btn-warning[disabled]:focus, .btn-warning[disabled]:hover, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning.active, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:hover {
     background-color: #f0ad4e;
     border-color: #eea236
 }
@@ -3685,7 +3680,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-image: none
 }
 
-.btn-danger.disabled.focus, .btn-danger.disabled:focus, .btn-danger.disabled:hover, .btn-danger[disabled].focus, .btn-danger[disabled]:focus, .btn-danger[disabled]:hover, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:hover {
+.btn-danger.disabled, .btn-danger.disabled.active, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled:focus, .btn-danger.disabled:hover, .btn-danger[disabled], .btn-danger[disabled].active, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled]:focus, .btn-danger[disabled]:hover, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger.active, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:hover {
     background-color: #d9534f;
     border-color: #d43f3a
 }
@@ -4079,7 +4074,6 @@ tbody.collapse.in {
 }
 
 .btn-group-vertical > .btn:first-child:not(:last-child) {
-    border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0
@@ -4088,7 +4082,6 @@ tbody.collapse.in {
 .btn-group-vertical > .btn:last-child:not(:first-child) {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px
 }
 
@@ -4151,10 +4144,6 @@ tbody.collapse.in {
     float: left;
     width: 100%;
     margin-bottom: 0
-}
-
-.input-group .form-control:focus {
-    z-index: 3
 }
 
 .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
@@ -4292,7 +4281,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 .nav > li > a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 10px
 }
 
 .nav > li > a:focus, .nav > li > a:hover {
@@ -4518,8 +4507,8 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-collapse {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
     overflow-x: visible;
     -webkit-overflow-scrolling: touch;
     border-top: 1px solid transparent;
@@ -4567,8 +4556,8 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
-    margin-right: -15px;
-    margin-left: -15px
+    margin-right: -10px;
+    margin-left: -10px
 }
 
 @media (min-width: 768px) {
@@ -4616,7 +4605,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 15px 15px;
+    padding: 10px 10px;
     font-size: 18px;
     line-height: 20px
 }
@@ -4631,7 +4620,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 
 @media (min-width: 768px) {
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-        margin-left: -15px
+        margin-left: -10px
     }
 }
 
@@ -4640,7 +4629,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     float: right;
     padding: 9px 10px;
     margin-top: 8px;
-    margin-right: 15px;
+    margin-right: 10px;
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
@@ -4670,7 +4659,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-nav {
-    margin: 7.5px -15px
+    margin: 7.5px -10px
 }
 
 .navbar-nav > li > a {
@@ -4692,7 +4681,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     }
 
     .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
-        padding: 5px 15px 5px 25px
+        padding: 5px 10px 5px 25px
     }
 
     .navbar-nav .open .dropdown-menu > li > a {
@@ -4715,17 +4704,17 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     }
 
     .navbar-nav > li > a {
-        padding-top: 15px;
-        padding-bottom: 15px
+        padding-top: 10px;
+        padding-bottom: 10px
     }
 }
 
 .navbar-form {
-    padding: 10px 15px;
+    padding: 10px 10px;
     margin-top: 8px;
-    margin-right: -15px;
+    margin-right: -10px;
     margin-bottom: 8px;
-    margin-left: -15px;
+    margin-left: -10px;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
@@ -4841,15 +4830,15 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-text {
-    margin-top: 15px;
-    margin-bottom: 15px
+    margin-top: 10px;
+    margin-bottom: 10px
 }
 
 @media (min-width: 768px) {
     .navbar-text {
         float: left;
-        margin-right: 15px;
-        margin-left: 15px
+        margin-right: 10px;
+        margin-left: 10px
     }
 }
 
@@ -4860,7 +4849,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 
     .navbar-right {
         float: right !important;
-        margin-right: -15px
+        margin-right: -10px
     }
 
     .navbar-right ~ .navbar-right {
@@ -5075,7 +5064,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .breadcrumb {
-    padding: 8px 15px;
+    padding: 8px 10px;
     margin-bottom: 20px;
     list-style: none;
     background-color: #f5f5f5;
@@ -5131,14 +5120,14 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
-    z-index: 2;
+    z-index: 3;
     color: #23527c;
     background-color: #eee;
     border-color: #ddd
 }
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
-    z-index: 3;
+    z-index: 2;
     color: #fff;
     cursor: default;
     background-color: #337ab7;
@@ -5200,7 +5189,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     padding: 5px 14px;
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 15px
+    border-radius: 10px
 }
 
 .pager li > a:focus, .pager li > a:hover {
@@ -5363,7 +5352,7 @@ a.badge:focus, a.badge:hover {
 }
 
 .jumbotron p {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 21px;
     font-weight: 200
 }
@@ -5373,8 +5362,6 @@ a.badge:focus, a.badge:hover {
 }
 
 .container .jumbotron, .container-fluid .jumbotron {
-    padding-right: 15px;
-    padding-left: 15px;
     border-radius: 6px
 }
 
@@ -5426,7 +5413,7 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 }
 
 .alert {
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 20px;
     border: 1px solid transparent;
     border-radius: 4px
@@ -5624,7 +5611,7 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 }
 
 .media {
-    margin-top: 15px
+    margin-top: 10px
 }
 
 .media:first-child {
@@ -5687,7 +5674,7 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 .list-group-item {
     position: relative;
     display: block;
-    padding: 10px 15px;
+    padding: 10px 10px;
     margin-bottom: -1px;
     background-color: #fff;
     border: 1px solid #ddd
@@ -5868,11 +5855,11 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
 }
 
 .panel-body {
-    padding: 15px
+    padding: 10px
 }
 
 .panel-heading {
-    padding: 10px 15px;
+    padding: 10px 10px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px
@@ -5894,7 +5881,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
 }
 
 .panel-footer {
-    padding: 10px 15px;
+    padding: 10px 10px;
     background-color: #f5f5f5;
     border-top: 1px solid #ddd;
     border-bottom-right-radius: 3px;
@@ -5940,8 +5927,8 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
 }
 
 .panel > .panel-collapse > .table caption, .panel > .table caption, .panel > .table-responsive > .table caption {
-    padding-right: 15px;
-    padding-left: 15px
+    padding-right: 10px;
+    padding-left: 10px
 }
 
 .panel > .table-responsive:first-child > .table:first-child, .panel > .table:first-child {
@@ -6338,7 +6325,8 @@ button.close {
 }
 
 .modal-header {
-    padding: 15px;
+    min-height: 16.43px;
+    padding: 10px;
     border-bottom: 1px solid #e5e5e5
 }
 
@@ -6353,11 +6341,11 @@ button.close {
 
 .modal-body {
     position: relative;
-    padding: 15px
+    padding: 10px
 }
 
 .modal-footer {
-    padding: 15px;
+    padding: 10px;
     text-align: right;
     border-top: 1px solid #e5e5e5
 }
@@ -6390,8 +6378,8 @@ button.close {
     }
 
     .modal-content {
-        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
+        -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .5)
     }
 
     .modal-sm {
@@ -6780,7 +6768,6 @@ button.close {
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-    background-color: rgba(0, 0, 0, 0);
     filter: alpha(opacity=50);
     opacity: .5
 }
@@ -6922,12 +6909,12 @@ button.close {
     }
 }
 
-.btn-group-vertical > .btn-group:after, .btn-group-vertical > .btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+.btn-group-vertical > .btn-group:after, .btn-group-vertical > .btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
     display: table;
     content: " "
 }
 
-.btn-group-vertical > .btn-group:after, .btn-toolbar:after, .clearfix:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .modal-header:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
+.btn-group-vertical > .btn-group:after, .btn-toolbar:after, .clearfix:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
     clear: both
 }
 
@@ -7210,5 +7197,3 @@ button.close {
         display: none !important
     }
 }
-
-/*# sourceMappingURL=bootstrap.min.css.map */

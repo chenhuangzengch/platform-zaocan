@@ -24,6 +24,10 @@ public class IndexContoller extends BaseController {
 		return "redirect:/index";
 	}
 
+	@RequestMapping({"/order"})
+	public void order(ModelMap modelMap) {
+	}
+
 
 
 
