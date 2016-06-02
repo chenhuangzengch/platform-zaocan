@@ -6,7 +6,6 @@ package com.xmbreakfast.web.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * Create on @2013-7-19 @下午1:52:20 
@@ -17,7 +16,15 @@ public class IndexContoller extends BaseController {
 
 	
 	@RequestMapping({"/index"})
-	public void index(ModelMap modelMap, @RequestParam(defaultValue="1") int page) {
+	public void index(ModelMap modelMap) {
 	}
+
+	@RequestMapping({"/"})
+	public String welcome(ModelMap modelMap) {
+		return "redirect:/index";
+	}
+
+
+
 
 }
